@@ -1,0 +1,205 @@
+a:hover{
+    text-decoration: none;
+}
+#image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#emoji{
+    height:200px;
+    width:200px;
+    float: right;
+    
+}
+
+#header{
+    color: blueviolet;
+    background-color:white;
+    background-size: cover;
+    position: sticky;
+    position: relative;
+ 
+
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu li{
+    display: inline-block;
+
+}
+#menu li a{
+    color:black;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover{
+    background-color: #362c50;
+}
+
+#back{
+   position:sticky;
+    background-color:whitesmoke;
+    transition: background-image 1s;
+    background-image:linear-gradient(45deg,#0313fc,#b503fc,#4251f5,#a742f5);
+    background-size: 400% 400%;
+	animation: gradient 5s  infinite;
+    
+   
+}
+@keyframes gradient {
+    0% {
+		background-position:  left;
+	}
+	
+	100% {
+		background-position:  right;
+	}
+    
+}
+.container .jumbotron {
+    border-radius: 0 !important;
+    
+}
+
+.jumbotron{
+    align-content: center;
+    text-align: center;
+   
+    
+}
+.h1{
+    color: blue;
+   
+}
+.bottom{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+.panel{
+    background-color:lightgray;
+    padding-bottom: 5px;
+    border-radius: 10px;
+   margin-left: 300px;
+   margin-right: 300px;
+   position: relative;
+   position: sticky;
+   
+}
+span{
+    font-weight: bold;
+    color: blue;
+    background-size: cover;
+    position: relative;
+    position: sticky;
+}
+.btn{
+    background-color:#3916c7;
+   background-position: center;
+    text-align: center;
+    color:white;
+}
+
+
+
+
+.col-1,.col-2,.col-3,-col-4,.col-5,.col-6,.col-7,.col-8,.col-9,-col-10,.col-11,.col-12{
+    border: 3px solid white;
+  
+}
+#full{
+    background-color:rgb(181, 181, 226);
+    margin-bottom: 0px;
+    
+}
+
+.card{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.input{
+    background-color:rgb(181, 181, 226);
+}
+.card-body{
+    
+    height: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer{
+    position:sticky;
+    
+    background-color:whitesmoke;
+    transition: background-image 1s;
+    background-image:linear-gradient(45deg,#0313fc,#b503fc,#4251f5,#a742f5);
+    background-size: 400% 400%;
+	animation: gradient 5s  infinite;
+    
+   
+}
+@keyframes gradient {
+    0% {
+		background-position:  left;
+	}
+	
+	100% {
+		background-position:  right;
+	}
+    
+}
+#foot{
+    padding-top: 100px;
+    height:230px
+    
+}
+#body{
+    padding-right: 100px;
+    width: 100px;
+}
+#add-cafe-form{
+  padding-top: 20px;  
+}
+.form{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    align-items: center;
+}
+.content{
+    justify-content: center;
+    display: flex;
+    background-color:blueviolet;
+    color: white;
+}
+.content1{
+    position: relative;
+    width: 50px;
+    background-color: white;
+
+}
+
+.input-field input{
+    height: 100%;
+    width:100%;
+
+}
+h5{
+    font-size: 40px;
+    font-family: 'Montserrat',sans-serif;
+    
+    padding-left: 20px;
+    text-align: center;justify-content: center;
+}
